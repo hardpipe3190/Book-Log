@@ -3,13 +3,52 @@
 <head>
     <title>My Reading Log</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            margin: 0;
+        }
+        
+        h1, h2 {
+            text-align: left;
+            width: 80%;
+        }
+        
+        .button {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #007bff;
+            text-decoration: none;
+            border-radius: 25px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .button:active {
+            transform: translateY(2px);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
 </head>
 <body>
 <br><br>
 <h1>&nbsp;&nbsp; 차재운 Reading Log</h1>
 <br><br>
 <h2>&nbsp;&nbsp;목차</h2>
-<p></p>
+<br><br>
 <!-- 하이퍼링크를 버튼처럼 스타일링 -->
 <p>
     <a href="시간을 파는 상점.html" class="button">시간을 파는 상점</a><br><br>
@@ -18,3 +57,4 @@
 </p>
 </body>
 </html>
+
